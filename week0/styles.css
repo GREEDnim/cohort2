@@ -1,23 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 body{
-    min-height: 100vh;
+    height: 100vh;
+    font-family: "Inter",serif;
 }
 .navbar{
     display:flex;
     justify-content: center;
     align-items: center;
-    /* have a height say 20% of screen size?  */
-    /* height: 100px; */
+    height:10vh;
+    box-shadow: 2px 1px 2px #eee;
 }
-
 .nav-content{
-    width:70%;
+    width:80%;
     max-width: 100%;
     display: flex;
     justify-content: space-between;
 }
 .links{
     display: flex;
-    column-gap: 5px;
+    column-gap: 20px;
 }
 .hamburger{
     display: flex;
@@ -26,6 +31,46 @@ body{
 }
 .hamburger .line{
     background-color: black;
-    width:20px;
+    width:15px;
     height:1px;
 }
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    row-gap: 30px;
+}
+
+.landing-image{
+    padding:50px 0px;
+}
+
+.main-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.main-texts .big{
+    font-size: 40px;
+}
+.main-texts .small{
+    font-size: 20px;
+}
+
+.signup{
+    font-size: large;
+    padding:15px 40px;
+    border-radius: 5px;
+    background-color: rgb(127, 127, 204);
+    color:white;
+    border: 0;
+}
+
+
+
+
