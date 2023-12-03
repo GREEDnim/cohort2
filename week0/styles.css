@@ -1,0 +1,31 @@
+body{
+    min-height: 100vh;
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* have a height say 20% of screen size?  */
+    /* height: 100px; */
+}
+
+.nav-content{
+    width:70%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    column-gap: 5px;
+}
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.hamburger .line{
+    background-color: black;
+    width:20px;
+    height:1px;
+}
